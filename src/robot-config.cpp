@@ -8,7 +8,10 @@ using code = vision::code;
 brain  Brain;
 
 //The motor constructor takes motors as (port, ratio, reversed), so for example
-//motor LeftFront = motor(PORT1, ratio6_1, false);
+motor LeftFront = motor(PORT1, ratio6_1, false);
+motor LeftBack = motor(PORT2, ratio6_1, false);
+motor RightFront = motor(PORT3, ratio6_1, true);
+motor RightBack = motor(PORT4, ratio6_1, true);
 
 //Add your devices below, and don't forget to do the same in robot-config.h:
 
