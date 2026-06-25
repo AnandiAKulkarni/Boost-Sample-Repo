@@ -221,6 +221,8 @@ void usercontrol(void) {
     // ........................................................................
     // Insert user code here. This is where you use the joystick values to
     // update your motors, etc.
+    Controller.ButtonL1.pressed(intake_block_low_box);
+    Controller.ButtonL2.pressed(intake_block_low_box);
     // ........................................................................
 
     //Replace this line with chassis.control_tank(); for tank drive 
