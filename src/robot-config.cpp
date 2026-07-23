@@ -15,7 +15,8 @@ motor RightFront = motor(PORT3, ratio6_1, true);
 motor RightBack = motor(PORT4, ratio6_1, true);
 
 //Add your devices below, and don't forget to do the same in robot-config.h:
-motor arm = motor(PORT5, ratio6_1, false);
+motor lift = motor(PORT5, ratio6_1, false);
+motor claw = motor(PORT6, ratio6_1, false);
 
 void vexcodeInit( void ) {
   // nothing to initialize

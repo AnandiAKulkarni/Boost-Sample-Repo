@@ -11,7 +11,8 @@ extern motor LeftFront;
 extern motor LeftBack;
 extern motor RightFront;
 extern motor RightBack;
-extern motor arm;
+extern motor lift;
+extern motor claw;
 
 
 

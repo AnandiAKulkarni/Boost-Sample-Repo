@@ -128,10 +128,18 @@ void holonomic_odom_test(){
   chassis.holonomic_drive_to_pose(0, 0, 0);
 }
 
-void arm_up() {
-  arm.spin(forward);
+void lift_up() {
+  lift.spin(forward);
 }
 
-void arm_down() {
-  arm.spin(reverse);
+void lift_down() {
+  lift.spin(reverse);
+}
+
+void claw_open() {
+  claw.spin(forward);
+}
+
+void claw_close() {
+  claw.spin(reverse);
 }

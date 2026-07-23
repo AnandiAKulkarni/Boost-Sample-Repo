@@ -14,5 +14,8 @@ void full_test();
 void odom_test();
 void tank_odom_test();
 void holonomic_odom_test();
-void arm_up();
-void arm_down();
+
+void lift_up();
+void lift_down();
+void claw_open();
+void claw_close();
